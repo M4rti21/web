@@ -2,9 +2,9 @@ import Home from "./pages/Home";
 
 function App() {
     return (
-        <div className="min-h-screen bg-base-300 flex flex-col items-center">
+        <div className="min-h-screen bg-base-100 flex flex-col items-center">
             <main className="w-screen mil:w-mil">
-                <div id="main" className="py-4 md:px-4 flex flex-col gap-4 bg-neutral shadow-lg">
+                <div id="main" className="p-4 md:p-8 bg-base-200 flex flex-col gap-4 shadow-lg">
                     <Home />
                 </div>
             </main>
